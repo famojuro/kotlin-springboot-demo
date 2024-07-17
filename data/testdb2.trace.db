@@ -1,0 +1,6 @@
+2024-07-17 22:21:36.225619+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "message" not found; SQL statement:
+SELECT "message"."ID" AS "ID", "message"."TEXT" AS "TEXT" FROM "message" [42102-224]
+2024-07-17 22:23:16.726174+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "message" not found (candidates are: "MESSAGE"); SQL statement:
+SELECT "message"."ID" AS "ID", "message"."TEXT" AS "TEXT" FROM "message" [42103-224]
